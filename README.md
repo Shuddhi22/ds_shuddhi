@@ -16,7 +16,7 @@ ds_shuddhi/
 ├── notebook_1.ipynb             
 ├── csv_files/                   
 │     ├── fear_greed.csv
-│     ├── historical_data.csv
+│     ├── historical_data.csv.zip
 │     
 ├── outputs/                     
 │     ├── graph 1.png
