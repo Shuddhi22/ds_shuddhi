@@ -1,16 +1,16 @@
 # ds_shuddhi
 Combines Crypto Fear & Greed Index data with detailed crypto trade execution logs. Includes sentiment values, classifications, timestamps, execution prices, trade sizes, fees, PnL, and transaction hashes. Useful for sentiment analysis, trading insights, and strategy development.
 
-Overview
+*Overview *:
 Fear & Greed Index Data
 – Tracks overall crypto market sentiment
 – Includes timestamps, values, and sentiment classifications
 
-Trade Execution Data
+Trade Execution Data:
 – Detailed trading logs with execution price, size, fees, PnL, and on-chain transaction hashes
 – Useful for studying execution quality, position tracking, and real-time trading behavior
 
-Folder structure
+Folder structure:
 ds_shuddhi/
 │
 ├── notebook_1.ipynb             
