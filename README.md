@@ -1,6 +1,42 @@
 # ds_shuddhi
-Combines Crypto Fear &amp; Greed Index data with detailed trade execution logs. Includes sentiment scores, classifications, timestamps, prices, token sizes, fees, PnL, and transaction hashes. Useful for sentiment analysis, trading research, and strategy development.
-COLUMN DISCRIPTION
+Combines Crypto Fear & Greed Index data with detailed crypto trade execution logs. Includes sentiment values, classifications, timestamps, execution prices, trade sizes, fees, PnL, and transaction hashes. Useful for sentiment analysis, trading insights, and strategy development.
+
+Overview
+Fear & Greed Index Data
+– Tracks overall crypto market sentiment
+– Includes timestamps, values, and sentiment classifications
+
+Trade Execution Data
+– Detailed trading logs with execution price, size, fees, PnL, and on-chain transaction hashes
+– Useful for studying execution quality, position tracking, and real-time trading behavior
+
+Folder structure
+ds_shuddhi/
+│
+├── notebook_1.ipynb             
+├── csv_files/                   
+│     ├── fear_greed.csv
+│     ├── historical_data.csv
+│     
+├── outputs/                     
+│     ├── graph 1.png
+│     ├── graph2.png
+│     ├── graph3.png
+│     ├── graph4.png
+│     ├── graph5.png
+│     ├── graph6.png
+│     ├── graph7.png
+│     ├── graph8.png
+│     ├── graph9.png
+│     ├── graph10.png
+│     ├── graph11.png
+│     ├── graph12.png
+│     └── correlation graph.png
+│
+├── ds_report.pdf                
+└── README.md 
+
+FEAR AND GREED COLUMN DISCRIPTION
 
 | Column Name        | Description                                                                                               |
 | ------------------ | --------------------------------------------------------------------------------------------------------- |
@@ -9,6 +45,8 @@ COLUMN DISCRIPTION
 | **classification** | Market sentiment category based on the value (e.g., *Fear, Extreme Fear, Neutral, Greed, Extreme Greed*). |
 | **date**           | Human-readable date converted from the timestamp (YYYY-MM-DD).                                            |
 
+
+TRADE COLUMN DISCRIPTION
 
 | Column Name          | Description                                                               |
 | -------------------- | ------------------------------------------------------------------------- |
